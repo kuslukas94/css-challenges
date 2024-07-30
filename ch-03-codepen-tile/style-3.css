@@ -1,0 +1,23 @@
+:root {
+  --font-main: 'Noto Sans', sans-serif;
+  --bg-main: #131417;
+  --bg-card: #1e1f26;
+  --bg-stats: #131417;
+  --username: #b7bbc8;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-main);
+  color: #fff;
+  font-family: var(--font-main);
+  font-weight: 500;
+}
+.container {
+  background-color: var(--bg-card);
+}
+
+.image-artwork img {
+  width: 25%;
+}

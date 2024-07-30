@@ -5,6 +5,9 @@ html, body {
   background-color: darkslategrey;
   color: white;
 }
+li {
+  padding: 10px 0 10px 0;
+}
 a {
   color: white;
 }
