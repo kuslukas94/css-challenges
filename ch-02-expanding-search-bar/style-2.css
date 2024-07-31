@@ -32,5 +32,7 @@ html, body {
 }
 
 a {
-  padding: 10px;
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
 }

@@ -43,7 +43,8 @@ html, body {
 }
 
 a {
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
   color: #fff;
-  text-decoration: none;
-  padding: 20px;
 }
