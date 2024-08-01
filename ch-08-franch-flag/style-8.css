@@ -1,0 +1,40 @@
+:root {
+  --red: #ED2938;
+  --white: #fff;
+  --blue: #002495;
+  --flag-height: 250px;
+  --aspect-ratio: calc(var(--flag-height) * 3 / 2);
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag-france {
+  display: flex;
+  width: var(--aspect-ratio);
+  height: var(--flag-height);
+  background-color: aquamarine;
+  box-shadow: 1px 1px 3px;
+}
+.blue {
+  background-color: var(--blue);
+  width: var(--aspect-ratio);
+}
+.white {
+  background-color: var(--white);
+  width: var(--aspect-ratio);
+}
+.red {
+  background-color: var(--red);
+  width: var(--aspect-ratio);
+}
+
+a {
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+}
