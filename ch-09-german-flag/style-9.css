@@ -1,0 +1,41 @@
+:root {
+  --black: #000000;
+  --red: #DE0002;
+  --yellow: #FFCE00;
+  --flag-height: 250px;
+  --aspect-ratio: calc(var(--flag-height) * 5 / 3);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.german-flag {
+  display: flex;
+  flex-direction: column;
+  height: var(--flag-height);
+  width: var(--aspect-ratio);
+  box-shadow: 1px 1px 3px;
+}
+.black {
+  background-color: var(--black);
+  height: var(--aspect-ratio);
+}
+.red {
+  background-color: var(--red);
+  height: var(--aspect-ratio);
+}
+.yellow {
+  background-color: var(--yellow);
+  height: var(--aspect-ratio);
+}
+
+a {
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+}
